@@ -1,1 +1,12 @@
+#include "../include/eplusplus.h"
+#include "../lib/network.h"
+#include <stdio.h>
 
+int main(void) {
+    printf("Starting E++ Language Engine...\n");
+    
+    // Sample network test
+    fetch_data("https://api.eplusplus.org");
+
+    return 0;
+}

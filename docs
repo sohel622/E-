@@ -1,1 +1,20 @@
+# E++ Programming Language Documentation
 
+Welcome to the official documentation for the **E++** programming language.
+
+## Overview
+E++ is a high-performance, structured programming language designed for building modern applications, including scalable social media platforms and backend systems.
+
+## Project Structure
+- **`include/`**: Core engine header files (`eplusplus.h`)
+- **`src/`**: Main compiler/interpreter execution logic (`main.c`)
+- **`lib/`**: Built-in system libraries (e.g., `network.h`)
+- **`examples/`**: Code snippets and practical usage examples (`basic_demo.c`)
+- **`docs/`**: Official project documentation and manuals
+
+## Getting Started
+To compile and test the E++ engine, use a standard C compiler:
+
+```bash
+gcc src/main.c -Iinclude -o eplusplus
+./eplusplus

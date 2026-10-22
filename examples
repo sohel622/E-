@@ -1,1 +1,17 @@
 
+#include "../include/eplusplus.h"
+#include "../lib/network.h"
+#include <stdio.h>
+
+int main(void) {
+    printf("=== E++ Language Example Demo ===\n");
+    
+    // Demonstrating basic variable and structure allocation
+    printf("Initializing E++ runtime environment...\n");
+    
+    // Testing lib network connectivity
+    fetch_data("https://eplusplus.org/demo");
+
+    printf("E++ execution completed successfully!\n");
+    return 0;
+}
